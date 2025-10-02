@@ -1,4 +1,6 @@
 
+import styles from '../assets/Card.module.css';
+
 type Props = {
     title?: string;
     message?: string;
@@ -11,7 +13,10 @@ function Card({
 
     return (
         <div>
-
+            <div className="card">
+                <h1>{title}</h1>
+                <p>{message}</p>
+            </div>
         </div>
     );
 
