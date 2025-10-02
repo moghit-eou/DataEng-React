@@ -13,7 +13,7 @@ function Card({
 
     return (
         <div>
-            <div className="card">
+            <div className={styles.card}>
                 <h1>{title}</h1>
                 <p>{message}</p>
             </div>
