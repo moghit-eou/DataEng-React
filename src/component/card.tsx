@@ -14,8 +14,8 @@ function Card({
     return (
         <div>
             <div className={styles.card}>
-                <h1>{title}</h1>
-                <p>{message}</p>
+                <h1 className={styles.title}>{title}</h1>
+                <p className={styles.message}>{message}</p>
             </div>
         </div>
     );
